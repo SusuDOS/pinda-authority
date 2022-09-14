@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/pd-auth/pd-auth-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pd-auth/pd-auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pd-auth/pd-auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pd-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pd-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pd-goods/pd-goods-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pd-goods/pd-goods-entity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pd-goods/pd-goods-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pd-goods/pd-goods-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pd-goods/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pd-goods/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,5 @@
+server:
+  port: 8090
+hello:
+  name: xiaoming
+  address: beijing

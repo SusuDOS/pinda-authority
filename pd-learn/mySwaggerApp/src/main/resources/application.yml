@@ -1,0 +1,7 @@
+server:
+  port: 8080
+pinda:
+  swagger:
+    enabled: true
+    title: 使用自定义文档-在线接口文档
+    base-package: com.itheima.controller

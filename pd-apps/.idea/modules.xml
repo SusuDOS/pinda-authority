@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pd-apps.iml" filepath="$PROJECT_DIR$/pd-apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pd-auth/pd-auth.iml" filepath="$PROJECT_DIR$/pd-auth/pd-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pd-auth/pd-auth-entity/pd-auth-entity.iml" filepath="$PROJECT_DIR$/pd-auth/pd-auth-entity/pd-auth-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pd-auth/pd-auth-server/pd-auth-server.iml" filepath="$PROJECT_DIR$/pd-auth/pd-auth-server/pd-auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pd-gateway/pd-gateway.iml" filepath="$PROJECT_DIR$/pd-gateway/pd-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pd-goods/pd-goods.iml" filepath="$PROJECT_DIR$/pd-goods/pd-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pd-goods/pd-goods-entity/pd-goods-entity.iml" filepath="$PROJECT_DIR$/pd-goods/pd-goods-entity/pd-goods-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pd-goods/pd-goods-server/pd-goods-server.iml" filepath="$PROJECT_DIR$/pd-goods/pd-goods-server/pd-goods-server.iml" />
+    </modules>
+  </component>
+</project>

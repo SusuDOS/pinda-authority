@@ -1,0 +1,32 @@
+version: "3.9"
+services:
+  mysql:
+    container_name: mysql
+    image: mysql:8.0.30
+    environment:
+      MYSQL_ROOT_PASSWORD: abc123456
+    volumes:
+      - "/root/pinda-authority/config/mysql/log/:/var/log/"
+      - "/root/pinda-authority/config/mysql/data/:/var/lib/mysql/"
+      - "/root/pinda-authority/config/mysql/conf/my.cnf:/etc/mysql/conf.d/my.cnf"
+    ports:
+      - "3306:3306"
+  redisStandalonoe:
+    container_name: redisalone
+    image: redis:7.0.4-alpine3.16
+    volumes:
+      - /root/pinda-authority/config/redis/conf:/usr/local/etc/redis
+      - /root/pinda-authority/config/redis/data:/data
+    command: redis-server /usr/local/etc/redis/redis.conf
+    ports:
+      - "6379:6379"
+  nacos:
+    container_name: nacos
+    image: nacos/nacos-server:v2.1.0
+    environment:
+      MODE: standalone
+    volumes:
+      - /root/pinda-authority/config/nacos/logs:/home/nacos/logs
+      - /root/pinda-authority/config/nacos/conf/application.properties:/home/nacos/conf/application.properties
+    ports:
+      - "8848:8848"

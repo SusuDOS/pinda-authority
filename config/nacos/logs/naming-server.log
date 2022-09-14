@@ -1,0 +1,158 @@
+2022-09-14 02:41:34,711 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-09-14 02:41:34,711 WARN Using naming.distro config to replace core.distro config
+
+2022-09-14 02:41:34,883 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-09-14 02:41:34,884 INFO listen for service meta change
+
+2022-09-14 02:41:34,890 INFO upgrade.state file is not exist
+
+2022-09-14 02:42:43,063 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-09-14 02:42:43,063 WARN Using naming.distro config to replace core.distro config
+
+2022-09-14 02:42:43,240 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-09-14 02:42:43,241 INFO listen for service meta change
+
+2022-09-14 02:44:24,267 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-09-14 02:44:24,267 WARN Using naming.distro config to replace core.distro config
+
+2022-09-14 02:44:24,424 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-09-14 02:44:24,425 INFO listen for service meta change
+
+2022-09-14 02:44:24,432 INFO upgrade.state file is not exist
+
+2022-09-14 02:44:27,138 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-09-14 02:44:27,138 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-09-14 02:44:27,139 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-09-14 02:44:27,139 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-09-14 02:44:28,801 INFO Load instance extension handler []
+
+2022-09-14 02:47:56,234 INFO Client connection 91.199.209.120:8760#true connect
+
+2022-09-14 02:47:56,261 INFO Client change for service Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-gateway', ephemeral=true, revision=0}, 91.199.209.120:8760#true
+
+2022-09-14 02:48:28,537 INFO Client connection 91.199.209.120:8764#true connect
+
+2022-09-14 02:48:28,537 INFO Client change for service Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-auth-server', ephemeral=true, revision=0}, 91.199.209.120:8764#true
+
+2022-09-14 02:48:56,088 INFO Client connection 91.199.209.120:8767#true connect
+
+2022-09-14 02:48:56,088 INFO Client change for service Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-goods-server', ephemeral=true, revision=0}, 91.199.209.120:8767#true
+
+2022-09-14 02:49:54,956 INFO Client connection 91.199.209.120:53120#true connect
+
+2022-09-14 04:02:45,313 INFO Client connection 91.199.209.120:53120#true disconnect, remove instances and subscribers
+
+2022-09-14 04:02:46,046 INFO [AUTO-DELETE-IP] service: Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-gateway', ephemeral=true, revision=1}, ip: {"ip":"91.199.209.120","port":8760,"healthy":false,"cluster":"DEFAULT","extendDatum":{"management.endpoints.web.base-path":"/actuator","preserved.register.source":"SPRING_CLOUD","customInstanceId":"91.199.209.120#8760#DEFAULT#DEFAULT_GROUP@@pd-gateway","management.context-path":"/api/gate/actuator"},"lastHeartBeatTime":1663099331675,"metadataId":"91.199.209.120:8760:DEFAULT"}
+
+2022-09-14 04:02:46,046 INFO Client remove for service Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-gateway', ephemeral=true, revision=1}, 91.199.209.120:8760#true
+
+2022-09-14 04:02:48,315 INFO [AUTO-DELETE-IP] service: Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-auth-server', ephemeral=true, revision=1}, ip: {"ip":"91.199.209.120","port":8764,"healthy":false,"cluster":"DEFAULT","extendDatum":{"management.endpoints.web.base-path":"/actuator","preserved.register.source":"SPRING_CLOUD","customInstanceId":"91.199.209.120#8764#DEFAULT#DEFAULT_GROUP@@pd-auth-server","management.context-path":"/actuator"},"lastHeartBeatTime":1663099334512,"metadataId":"91.199.209.120:8764:DEFAULT"}
+
+2022-09-14 04:02:48,315 INFO Client remove for service Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-auth-server', ephemeral=true, revision=1}, 91.199.209.120:8764#true
+
+2022-09-14 04:02:50,314 INFO Client connection 91.199.209.120:8760#true disconnect, remove instances and subscribers
+
+2022-09-14 04:02:50,314 INFO Client connection 91.199.209.120:8764#true disconnect, remove instances and subscribers
+
+2022-09-14 04:02:50,863 INFO [AUTO-DELETE-IP] service: Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-goods-server', ephemeral=true, revision=1}, ip: {"ip":"91.199.209.120","port":8767,"healthy":false,"cluster":"DEFAULT","extendDatum":{"management.endpoints.web.base-path":"/actuator","preserved.register.source":"SPRING_CLOUD","customInstanceId":"91.199.209.120#8767#DEFAULT#DEFAULT_GROUP@@pd-goods-server","management.context-path":"/actuator"},"lastHeartBeatTime":1663099336555,"metadataId":"91.199.209.120:8767:DEFAULT"}
+
+2022-09-14 04:02:50,863 INFO Client remove for service Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-goods-server', ephemeral=true, revision=1}, 91.199.209.120:8767#true
+
+2022-09-14 04:02:55,314 INFO Client connection 91.199.209.120:8767#true disconnect, remove instances and subscribers
+
+2022-09-14 04:03:57,917 WARN namespace : 62c96cc2-0759-4a4d-b4be-26901d52d420, [DEFAULT_GROUP@@pd-gateway] services are automatically cleaned
+
+2022-09-14 04:03:57,917 WARN namespace : 62c96cc2-0759-4a4d-b4be-26901d52d420, [DEFAULT_GROUP@@pd-goods-server] services are automatically cleaned
+
+2022-09-14 04:03:57,918 WARN namespace : 62c96cc2-0759-4a4d-b4be-26901d52d420, [DEFAULT_GROUP@@pd-auth-server] services are automatically cleaned
+
+2022-09-14 20:18:40,935 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-09-14 20:18:41,017 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-09-14 20:18:42,483 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-09-14 20:18:42,483 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-09-14 20:20:01,814 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2022-09-14 20:20:01,814 WARN Using naming.distro config to replace core.distro config
+
+2022-09-14 20:20:01,985 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-09-14 20:20:01,986 INFO listen for service meta change
+
+2022-09-14 20:20:01,993 INFO upgrade.state file is not exist
+
+2022-09-14 20:20:04,526 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2022-09-14 20:20:04,526 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2022-09-14 20:20:04,527 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2022-09-14 20:20:04,527 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2022-09-14 20:20:06,287 INFO Load instance extension handler []
+
+2022-09-14 20:31:01,605 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2022-09-14 20:31:01,622 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2022-09-14 20:31:02,919 ERROR [HEALTH-CHECK] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.processTask(TcpSuperSenseProcessor.java:137)
+	at com.alibaba.nacos.naming.healthcheck.TcpSuperSenseProcessor.run(TcpSuperSenseProcessor.java:154)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-09-14 20:31:02,919 ERROR [HEALTH-CHECK-V2] error while processing NIO task
+
+java.lang.InterruptedException: null
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.processTask(TcpHealthCheckProcessor.java:122)
+	at com.alibaba.nacos.naming.healthcheck.v2.processor.TcpHealthCheckProcessor.run(TcpHealthCheckProcessor.java:139)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)

@@ -1,0 +1,22 @@
+2022-09-07 05:59:42.555 [main] INFO  cn.itcast.LogbackApp - Starting LogbackApp on greencloud with PID 5246 (/root/PinDa/springboot_logback_demo/target/classes started by root in /root/PinDa/springboot_logback_demo)
+2022-09-07 05:59:42.558 [main] INFO  cn.itcast.LogbackApp - The following profiles are active: pro
+2022-09-07 05:59:43.678 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9000 (http)
+2022-09-07 05:59:43.691 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9000"]
+2022-09-07 05:59:43.692 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-09-07 05:59:43.692 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-09-07 05:59:43.761 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-09-07 05:59:43.762 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1153 ms
+2022-09-07 05:59:43.939 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-09-07 05:59:44.101 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9000"]
+2022-09-07 05:59:44.133 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9000 (http) with context path ''
+2022-09-07 05:59:44.136 [main] INFO  cn.itcast.LogbackApp - Started LogbackApp in 2.167 seconds (JVM running for 2.539)
+2022-09-07 06:02:15.430 [http-nio-9000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 06:02:15.432 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-09-07 06:02:15.444 [http-nio-9000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2022-09-07 06:02:15.473 [http-nio-9000-exec-1] INFO  cn.itcast.controller.UserController - info...
+2022-09-07 06:02:15.473 [http-nio-9000-exec-1] WARN  cn.itcast.controller.UserController - warn...
+2022-09-07 06:02:15.473 [http-nio-9000-exec-1] ERROR cn.itcast.controller.UserController - error...
+2022-09-07 06:02:20.735 [http-nio-9000-exec-2] INFO  cn.itcast.controller.UserController - info...
+2022-09-07 06:02:20.736 [http-nio-9000-exec-2] WARN  cn.itcast.controller.UserController - warn...
+2022-09-07 06:02:20.736 [http-nio-9000-exec-2] ERROR cn.itcast.controller.UserController - error...
+2022-09-07 06:03:17.713 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,23 @@
+server:
+  port: 8080
+pinda:
+  swagger:
+    enabled: true
+    title: 测试标题
+    description: 在线文档
+    version: 0.1
+    basePackage: cn.itcast.controller
+
+# 第二种：每个controller单独一个组。上面的为合并为默认组.
+# server:
+#   port: 7788
+# pinda:
+#   swagger:
+#     enabled: true #是否启用swagger
+#     docket:
+#       user:
+#         title: 用户模块
+#         base-package: cn.itcast.controller.user
+#       menu:
+#         title: 菜单模块
+#         base-package: cn.itcast.controller.menu

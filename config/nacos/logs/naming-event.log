@@ -1,0 +1,14 @@
+2022-09-14 02:41:47,165 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-09-14 02:42:55,702 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-09-14 04:02:31,034 INFO {POS} {IP-DISABLED} valid: 91.199.209.120:8760@DEFAULT@pd-gateway, region: unknown, msg: client last beat: 1663099331675
+
+2022-09-14 04:02:33,313 INFO {POS} {IP-DISABLED} valid: 91.199.209.120:8764@DEFAULT@pd-auth-server, region: unknown, msg: client last beat: 1663099334512
+
+2022-09-14 04:02:35,861 INFO {POS} {IP-DISABLED} valid: 91.199.209.120:8767@DEFAULT@pd-goods-server, region: unknown, msg: client last beat: 1663099336555
+
+2022-09-14 20:18:41,883 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+
+2022-09-14 20:31:02,314 ERROR [UPDATE-DOMAIN] Exception while taking item from LinkedBlockingDeque.
+

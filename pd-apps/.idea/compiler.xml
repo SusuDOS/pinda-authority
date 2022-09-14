@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pd-goods-server" />
+        <module name="pd-auth-entity" />
+        <module name="pd-goods-entity" />
+        <module name="pd-gateway" />
+        <module name="pd-auth-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pd-apps" target="1.8" />
+      <module name="pd-auth" target="1.8" />
+      <module name="pd-auth-entity" target="1.8" />
+      <module name="pd-auth-server" target="1.8" />
+      <module name="pd-gateway" target="1.8" />
+      <module name="pd-goods" target="8" />
+      <module name="pd-goods-entity" target="1.8" />
+      <module name="pd-goods-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pd-auth-entity" options="-parameters" />
+      <module name="pd-auth-server" options="-parameters" />
+      <module name="pd-gateway" options="-parameters" />
+      <module name="pd-goods" options="-parameters" />
+      <module name="pd-goods-entity" options="-parameters" />
+      <module name="pd-goods-server" options="-parameters" />
+    </option>
+  </component>
+</project>

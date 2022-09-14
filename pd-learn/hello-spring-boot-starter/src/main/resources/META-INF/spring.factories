@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.itcast.config.HelloServiceAutoConfiguration,\
+cn.itcast.config.MyLogAutoConfiguration

@@ -1,0 +1,96 @@
+2022-09-14 02:49:55,524 INFO DEFAULT_GROUP@@pd-auth-server is changed, add it to push queue.
+
+2022-09-14 02:49:55,575 INFO serviceName: DEFAULT_GROUP@@pd-auth-server changed, schedule push for: 91.199.209.120:53120, agent: Nacos-Java-Client:v1.1.4, key: 91.199.209.120,53120,863189854238
+
+2022-09-14 02:49:55,578 INFO send udp packet: 91.199.209.120,53120,863189854238
+
+2022-09-14 02:49:55,602 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.21.0.1,53120,863189854238, ack json: {"type": "push-ack", "lastRefTime":"863189854238", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-09-14 02:50:05,582 INFO retry to push data, key: 91.199.209.120,53120,863189854238
+
+2022-09-14 02:50:05,587 WARN ack takes too long from /172.21.0.1:53120 ack json: {"type": "push-ack", "lastRefTime":"863189854238", "data":""}
+
+2022-09-14 02:50:05,588 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.21.0.1,53120,863189854238, ack json: {"type": "push-ack", "lastRefTime":"863189854238", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-09-14 02:50:15,583 WARN max re-push times reached, retry times 2, key: 91.199.209.120,53120,863189854238
+
+2022-09-14 02:50:15,583 ERROR [PUSH-FAIL] 20064ms, Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-auth-server', ephemeral=true, revision=1}, reason=null, target=91.199.209.120
+
+2022-09-14 03:54:29,964 INFO DEFAULT_GROUP@@pd-goods-server is changed, add it to push queue.
+
+2022-09-14 03:54:29,965 INFO serviceName: DEFAULT_GROUP@@pd-goods-server changed, schedule push for: 91.199.209.120:53120, agent: Nacos-Java-Client:v1.1.4, key: 91.199.209.120,53120,4738125940435
+
+2022-09-14 03:54:29,966 INFO send udp packet: 91.199.209.120,53120,4738125940435
+
+2022-09-14 03:54:29,970 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.21.0.1,53120,4738125940435, ack json: {"type": "push-ack", "lastRefTime":"4738125940435", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-09-14 03:54:39,967 INFO retry to push data, key: 91.199.209.120,53120,4738125940435
+
+2022-09-14 03:54:39,969 WARN ack takes too long from /172.21.0.1:53120 ack json: {"type": "push-ack", "lastRefTime":"4738125940435", "data":""}
+
+2022-09-14 03:54:39,969 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.21.0.1,53120,4738125940435, ack json: {"type": "push-ack", "lastRefTime":"4738125940435", "data":""}
+	at com.alibaba.nacos.naming.remote.udp.UdpConnector$UdpReceiver.run(UdpConnector.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2022-09-14 03:54:49,968 WARN max re-push times reached, retry times 2, key: 91.199.209.120,53120,4738125940435
+
+2022-09-14 03:54:49,968 ERROR [PUSH-FAIL] 20004ms, Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-goods-server', ephemeral=true, revision=1}, reason=null, target=91.199.209.120
+
+2022-09-14 04:02:33,865 INFO DEFAULT_GROUP@@pd-auth-server is changed, add it to push queue.
+
+2022-09-14 04:02:33,866 INFO serviceName: DEFAULT_GROUP@@pd-auth-server changed, schedule push for: 91.199.209.120:53120, agent: Nacos-Java-Client:v1.1.4, key: 91.199.209.120,53120,5222026560063
+
+2022-09-14 04:02:33,866 INFO send udp packet: 91.199.209.120,53120,5222026560063
+
+2022-09-14 04:02:36,369 INFO DEFAULT_GROUP@@pd-goods-server is changed, add it to push queue.
+
+2022-09-14 04:02:36,369 INFO serviceName: DEFAULT_GROUP@@pd-goods-server changed, schedule push for: 91.199.209.120:53120, agent: Nacos-Java-Client:v1.1.4, key: 91.199.209.120,53120,5224530295762
+
+2022-09-14 04:02:36,369 INFO send udp packet: 91.199.209.120,53120,5224530295762
+
+2022-09-14 04:02:43,868 INFO retry to push data, key: 91.199.209.120,53120,5222026560063
+
+2022-09-14 04:02:46,371 INFO retry to push data, key: 91.199.209.120,53120,5224530295762
+
+2022-09-14 04:02:53,868 WARN max re-push times reached, retry times 2, key: 91.199.209.120,53120,5222026560063
+
+2022-09-14 04:02:53,868 ERROR [PUSH-FAIL] 20004ms, Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-auth-server', ephemeral=true, revision=2}, reason=null, target=91.199.209.120
+
+2022-09-14 04:02:56,371 WARN max re-push times reached, retry times 2, key: 91.199.209.120,53120,5224530295762
+
+2022-09-14 04:02:56,372 ERROR [PUSH-FAIL] 20003ms, Service{namespace='62c96cc2-0759-4a4d-b4be-26901d52d420', group='DEFAULT_GROUP', name='pd-goods-server', ephemeral=true, revision=2}, reason=null, target=91.199.209.120
+

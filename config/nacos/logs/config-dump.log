@@ -1,0 +1,28 @@
+2022-09-14 02:47:11,898 INFO [dump-task] add task. groupKey=mysql.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420, taskKey=mysql.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420+false+null
+
+2022-09-14 02:47:11,898 INFO [dump-task] add task. groupKey=common.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420, taskKey=common.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420+false+null
+
+2022-09-14 02:47:11,898 INFO [dump-task] add task. groupKey=pd-auth-server-dev.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420, taskKey=pd-auth-server-dev.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420+false+null
+
+2022-09-14 02:47:11,899 INFO [dump-task] add task. groupKey=pd-gateway.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420, taskKey=pd-gateway.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420+false+null
+
+2022-09-14 02:47:11,899 INFO [dump-task] add task. groupKey=pd-goods-server.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420, taskKey=pd-goods-server.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420+false+null
+
+2022-09-14 02:47:11,899 INFO [dump-task] add task. groupKey=redis.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420, taskKey=redis.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420+false+null
+
+2022-09-14 02:47:11,899 INFO [dump-task] add task. groupKey=pd-auth-server.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420, taskKey=pd-auth-server.yml+DEFAULT_GROUP+62c96cc2-0759-4a4d-b4be-26901d52d420+false+null
+
+2022-09-14 20:20:03,436 INFO [dump-all-ok] common.yml+DEFAULT_GROUP, 1663094832000, length=2058, md5=f33766c1ef74680c95b4bf4b107d0d52
+
+2022-09-14 20:20:03,437 INFO [dump-all-ok] mysql.yml+DEFAULT_GROUP, 1663094832000, length=2761, md5=6cc1b02af79061b0f2bd6aea6d0a615f
+
+2022-09-14 20:20:03,438 INFO [dump-all-ok] pd-auth-server-dev.yml+DEFAULT_GROUP, 1663094832000, length=460, md5=8cb4b4c7f19edda582f0e3e170c3a81c
+
+2022-09-14 20:20:03,438 INFO [dump-all-ok] pd-auth-server.yml+DEFAULT_GROUP, 1663094832000, length=622, md5=40188236b25255fd3aec6d911dc32194
+
+2022-09-14 20:20:03,439 INFO [dump-all-ok] pd-gateway.yml+DEFAULT_GROUP, 1663094832000, length=934, md5=f1a78d2c11a2206deb73d1ce9b423876
+
+2022-09-14 20:20:03,440 INFO [dump-all-ok] pd-goods-server.yml+DEFAULT_GROUP, 1663094832000, length=227, md5=f51253d86855924ef65f7840b8521d21
+
+2022-09-14 20:20:03,441 INFO [dump-all-ok] redis.yml+DEFAULT_GROUP, 1663094832000, length=1377, md5=c8b815bf66d44ac849730bae9e761c8c
+

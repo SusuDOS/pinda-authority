@@ -1,0 +1,100 @@
+1:C 13 Sep 2022 18:37:43.824 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 13 Sep 2022 18:37:43.825 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 13 Sep 2022 18:37:43.825 # Configuration loaded
+1:M 13 Sep 2022 18:37:43.825 * monotonic clock: POSIX clock_gettime
+1:M 13 Sep 2022 18:37:43.832 * Running mode=standalone, port=6379.
+1:M 13 Sep 2022 18:37:43.832 # Server initialized
+1:M 13 Sep 2022 18:37:43.832 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 13 Sep 2022 18:37:43.834 * Ready to accept connections
+1:signal-handler (1663094336) Received SIGTERM scheduling shutdown...
+1:M 13 Sep 2022 18:38:56.894 # User requested shutdown...
+1:M 13 Sep 2022 18:38:56.894 * Saving the final RDB snapshot before exiting.
+1:M 13 Sep 2022 18:38:56.896 * DB saved on disk
+1:M 13 Sep 2022 18:38:56.896 * Removing the pid file.
+1:M 13 Sep 2022 18:38:56.897 # Redis is now ready to exit, bye bye...
+1:C 13 Sep 2022 18:39:09.195 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 13 Sep 2022 18:39:09.195 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 13 Sep 2022 18:39:09.195 # Configuration loaded
+1:M 13 Sep 2022 18:39:09.195 * monotonic clock: POSIX clock_gettime
+1:M 13 Sep 2022 18:39:09.196 * Running mode=standalone, port=6379.
+1:M 13 Sep 2022 18:39:09.196 # Server initialized
+1:M 13 Sep 2022 18:39:09.197 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 13 Sep 2022 18:39:09.197 * Loading RDB produced by version 7.0.4
+1:M 13 Sep 2022 18:39:09.197 * RDB age 13 seconds
+1:M 13 Sep 2022 18:39:09.197 * RDB memory usage when created 0.82 Mb
+1:M 13 Sep 2022 18:39:09.197 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 13 Sep 2022 18:39:09.197 * DB loaded from disk: 0.000 seconds
+1:M 13 Sep 2022 18:39:09.197 * Ready to accept connections
+1:signal-handler (1663094427) Received SIGTERM scheduling shutdown...
+1:M 13 Sep 2022 18:40:27.194 # User requested shutdown...
+1:M 13 Sep 2022 18:40:27.194 * Saving the final RDB snapshot before exiting.
+1:M 13 Sep 2022 18:40:27.198 * DB saved on disk
+1:M 13 Sep 2022 18:40:27.198 * Removing the pid file.
+1:M 13 Sep 2022 18:40:27.198 # Redis is now ready to exit, bye bye...
+1:C 13 Sep 2022 18:41:27.484 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 13 Sep 2022 18:41:27.484 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 13 Sep 2022 18:41:27.484 # Configuration loaded
+1:M 13 Sep 2022 18:41:27.484 * monotonic clock: POSIX clock_gettime
+1:M 13 Sep 2022 18:41:27.485 * Running mode=standalone, port=6379.
+1:M 13 Sep 2022 18:41:27.485 # Server initialized
+1:M 13 Sep 2022 18:41:27.485 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 13 Sep 2022 18:41:27.486 * Loading RDB produced by version 7.0.4
+1:M 13 Sep 2022 18:41:27.486 * RDB age 60 seconds
+1:M 13 Sep 2022 18:41:27.486 * RDB memory usage when created 0.82 Mb
+1:M 13 Sep 2022 18:41:27.486 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 13 Sep 2022 18:41:27.486 * DB loaded from disk: 0.000 seconds
+1:M 13 Sep 2022 18:41:27.486 * Ready to accept connections
+1:signal-handler (1663094646) Received SIGTERM scheduling shutdown...
+1:M 13 Sep 2022 18:44:06.337 # User requested shutdown...
+1:M 13 Sep 2022 18:44:06.337 * Saving the final RDB snapshot before exiting.
+1:M 13 Sep 2022 18:44:06.340 * DB saved on disk
+1:M 13 Sep 2022 18:44:06.340 * Removing the pid file.
+1:M 13 Sep 2022 18:44:06.341 # Redis is now ready to exit, bye bye...
+1:C 13 Sep 2022 18:44:15.018 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 13 Sep 2022 18:44:15.018 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 13 Sep 2022 18:44:15.018 # Configuration loaded
+1:M 13 Sep 2022 18:44:15.019 * monotonic clock: POSIX clock_gettime
+1:M 13 Sep 2022 18:44:15.020 * Running mode=standalone, port=6379.
+1:M 13 Sep 2022 18:44:15.020 # Server initialized
+1:M 13 Sep 2022 18:44:15.021 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 13 Sep 2022 18:44:15.021 * Loading RDB produced by version 7.0.4
+1:M 13 Sep 2022 18:44:15.021 * RDB age 9 seconds
+1:M 13 Sep 2022 18:44:15.022 * RDB memory usage when created 0.82 Mb
+1:M 13 Sep 2022 18:44:15.022 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 13 Sep 2022 18:44:15.022 * DB loaded from disk: 0.001 seconds
+1:M 13 Sep 2022 18:44:15.022 * Ready to accept connections
+1:M 13 Sep 2022 19:44:16.018 * 1 changes in 3600 seconds. Saving...
+1:M 13 Sep 2022 19:44:16.018 * Background saving started by pid 15
+15:C 13 Sep 2022 19:44:16.023 * DB saved on disk
+15:C 13 Sep 2022 19:44:16.023 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 13 Sep 2022 19:44:16.119 * Background saving terminated with success
+1:M 13 Sep 2022 20:44:17.003 * 1 changes in 3600 seconds. Saving...
+1:M 13 Sep 2022 20:44:17.005 * Background saving started by pid 16
+16:C 13 Sep 2022 20:44:17.011 * DB saved on disk
+16:C 13 Sep 2022 20:44:17.011 * Fork CoW for RDB: current 0 MB, peak 0 MB, average 0 MB
+1:M 13 Sep 2022 20:44:17.106 * Background saving terminated with success
+1:signal-handler (1663157920) Received SIGTERM scheduling shutdown...
+1:M 14 Sep 2022 12:18:40.923 # User requested shutdown...
+1:M 14 Sep 2022 12:18:40.923 * Saving the final RDB snapshot before exiting.
+1:M 14 Sep 2022 12:18:40.925 * DB saved on disk
+1:M 14 Sep 2022 12:18:40.925 * Removing the pid file.
+1:M 14 Sep 2022 12:18:40.925 # Redis is now ready to exit, bye bye...
+1:C 14 Sep 2022 12:19:51.703 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 14 Sep 2022 12:19:51.703 # Redis version=7.0.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 14 Sep 2022 12:19:51.703 # Configuration loaded
+1:M 14 Sep 2022 12:19:51.703 * monotonic clock: POSIX clock_gettime
+1:M 14 Sep 2022 12:19:51.704 * Running mode=standalone, port=6379.
+1:M 14 Sep 2022 12:19:51.704 # Server initialized
+1:M 14 Sep 2022 12:19:51.705 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 14 Sep 2022 12:19:51.705 * Loading RDB produced by version 7.0.4
+1:M 14 Sep 2022 12:19:51.705 * RDB age 71 seconds
+1:M 14 Sep 2022 12:19:51.705 * RDB memory usage when created 1.20 Mb
+1:M 14 Sep 2022 12:19:51.706 * Done loading RDB, keys loaded: 0, keys expired: 0.
+1:M 14 Sep 2022 12:19:51.706 * DB loaded from disk: 0.001 seconds
+1:M 14 Sep 2022 12:19:51.706 * Ready to accept connections
+1:signal-handler (1663158661) Received SIGTERM scheduling shutdown...
+1:M 14 Sep 2022 12:31:01.673 # User requested shutdown...
+1:M 14 Sep 2022 12:31:01.673 * Saving the final RDB snapshot before exiting.
+1:M 14 Sep 2022 12:31:01.676 * DB saved on disk
+1:M 14 Sep 2022 12:31:01.676 * Removing the pid file.
+1:M 14 Sep 2022 12:31:01.677 # Redis is now ready to exit, bye bye...
